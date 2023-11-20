@@ -1,0 +1,113 @@
+@media screen and (max-width: 1550px) {
+
+  .menu {
+    width: 350px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .recept {
+    width: 750px;
+    height: 495px;
+    font-size: 38px;
+    margin-left: 80px;
+    margin-top: 62px;
+    padding: 5px;
+    padding-top: 18vh;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (max-width: 1450px) {
+
+  .menu {
+    width: 350px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .null-podval {
+    width: 780px;
+  }
+
+}
+
+@media screen and (max-width: 1340px) {
+
+  .menu {
+    width: 350px;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+}
+
+@media screen and (max-width: 1270px) {
+
+  .recept {
+    width: 600px;
+    height: 375px;
+    font-size: 38px;
+    margin-left: 80px;
+    margin-top: 62px;
+    padding: 5px;
+    padding-top: 5vh;
+    text-align: center;
+  }
+
+  .menu {
+    width: 350px;
+    height: 378px;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .delenie {
+    display: none;
+  }
+
+  .text-opisanie {
+    font-size: 18px;
+    padding-top: 390px;
+  }
+
+  .null-podval {
+    width: 480px;
+  }
+
+}
+
+@media screen and (max-width: 1070px) {
+  
+  .recept {
+    width: 400px;
+    height: 375px;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 62px;
+    padding: 5px;
+    padding-top: 8vh;
+    text-align: center;
+  }
+
+  .menu {
+    width: 350px;
+    height: 378px;
+    margin-left: 85px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .null-header {
+    display: none;
+  }
+
+}

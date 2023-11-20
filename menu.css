@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: hoshkafe-kastomize3d;
+  src: url(../fonts/ofont.ru_Riffic.ttf);
+}
+
+@font-face {
+  font-family: text-kastomize3d;
+  src: url(../fonts/ofont.ru_Geologica.ttf);
+}
+
+body, html {
+  scroll-behavior: smooth;
+  width:  100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #282828;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shapka {
+  background-color: #333;
+  border: solid 5px black;
+}
+
+header {
+  min-width: 100vw;
+}
+
+.flex-podval {
+  display: flex;
+  justify-content: space-around;
+}
+
+.podval {
+  background-color: #333;
+  border: solid 5px black;
+  height: auto;
+}
+
+.navigation-podval {
+  padding-top: 40px;
+  height: 50px;
+  width: 380px;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.restorant {
+  font-family: hoshkafe-kastomize3d;
+  letter-spacing: 4.5px; 
+  text-align: center;
+  font-size: 92px; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  color: #f4f4f4;
+}
+
+.a-header {
+  text-align: center;
+  font-family: hoshkafe-kastomize3d;
+  font-size: 31.90px; 
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 4.5px; 
+}
+
+.a-podval {
+  text-align: center;
+  font-family: hoshkafe-kastomize3d;
+  font-size: 25px; 
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 12px; 
+}
+
+.navigation-header {
+  margin-top: 55px;
+  height: 50px;
+  width: 380px;
+}
+
+.null-header {
+  margin-top: 55px;
+  height: 50px;
+  width: 280px;
+  /* border: 5px solid #f4f4f4; */
+}
+
+.null-podval {
+  margin-top: 25px;
+  height: 50px;
+  width: 1080px;
+  /* border: 5px solid #f4f4f4; */
+}
+
+.home:hover {
+  color: #b8b8b8;
+}
+
+.reviews:hover {
+  color: #b8b8b8;
+}
+
+.aboutUs:hover {
+  color: #b8b8b8;
+}
+
+.flex-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu {
+  border: 3px solid black;
+  width: 350px;
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.delenie {
+  margin-top: 385px;
+  border: 5px solid black;
+}
+
+.text-opisanie {
+  font-family: text-kastomize3d;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+  color: #f4f4f4;
+}
+
+.recept {
+  width: 950px;
+  height: 495px;
+  font-family: text-kastomize3d;
+  font-size: 38px;
+  text-align: center;
+  padding: 5px;
+  padding-top: 175px;
+  margin-left: 80px;
+  margin-top: 62px;
+  color: #f4f4f4;
+  border: 5px solid #333;
+}
+
+.punkt-menu1 {
+  background-image: url(../img/bludo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 580px;
+  background-position-x: -180px;
+  background-position-y: -1.5px;
+}
+
+.punkt-menu2 {
+  background-image: url(../img/bludo-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 580px;
+  background-position-x: -120px;
+}
+
+.punkt-menu3 {
+  background-image: url(../img/bludo-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 580px;
+  background-position-x: -120px;
+}
+
+.punkt-menu4 {
+  background-image: url(../img/bludo-4.jpg);
+  background-repeat: no-repeat;
+  background-size: 685px;
+  background-position-x: -300px;
+  background-position-y: 0px;
+}
+
+.punkt-menu5 {
+  background-image: url(../img/bludo-5.jpg);
+  background-repeat: no-repeat;
+  background-size: 390px;
+  background-position-x: -20px;
+  background-position-y: -5px;
+}
+
+.punkt-menu6 {
+  background-image: url(../img/bludo-6.JPG);
+  background-repeat: no-repeat;
+  background-size: 580px;
+  background-position-x: -110.5px;
+  background-position-y: -2px;
+}
+
+.punkt-menu7 {
+  background-image: url(../img/bludo-7.jpg);
+  background-repeat: no-repeat;
+  background-size: 580px;
+  background-position-x: -120px;
+}
+
+.punkt-menu8 {
+  background-image: url(../img/bludo-8.jpg);
+  background-repeat: no-repeat;
+  background-size: 690px;
+  background-position-x: -180px;
+  background-position-y: -3px;
+}
+
+.punkt-menu9 {
+  background-image: url(../img/bludo-9.jpg);
+  background-repeat: no-repeat;
+  background-size: 515px;
+  background-position-x: -140px;
+  background-position-y: 0px;
+}
+
+.punkt-menu10 {
+  background-image: url(../img/bludo-10.png);
+  background-repeat: no-repeat;
+  background-size: 880px;
+  background-position-x: -530px;
+  background-position-y: -17px;
+}
+
+.punkt-menu11 {
+  background-image: url(../img/bludo-11.jpg);
+  background-repeat: no-repeat;
+  background-size: 580px;
+  background-position-x: -120px;
+}
+
+.punkt-menu12 {
+  background-image: url(../img/bludo-12.jpg);
+  background-repeat: no-repeat;
+  background-size: 580px;
+  background-position-x: -120px;
+  background-position-y: -1px;
+}
+
+.select::selection {
+  background: rgb(0, 89, 0);
+}
